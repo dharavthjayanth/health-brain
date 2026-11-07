@@ -1,0 +1,8 @@
+# Raw health data and anything derived from it never goes in git
+data/
+*.csv
+*.db
+*.sqlite
+__pycache__/
+*.pyc
+.env
