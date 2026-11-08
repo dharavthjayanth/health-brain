@@ -31,7 +31,9 @@ notice meaningful change, and explain it using only that person's evidence.
 
 ## Layers
 1. Memory: DONE. SQLite store, no duplicates, corrections logged, people kept apart.
-2. Normal: NEXT. Typical range per metric, weekday vs weekend, high vs low load, trend over time.
+2. Normal: BUILT 2026-11-08, WAITING FOR JAYANTH'S REVIEW (do not start Layer 3 until signed off).
+   Typical range per metric, weekday vs weekend, higher vs lower strain, longer vs shorter sleep,
+   last 14 days vs earlier. Code: layers/layer2_normal.py, tests: test_layer2.py.
 3. Patterns: what tends to happen together, with sample sizes and confidence labels.
 4. Change: today and this week versus own normal; which other metrics moved with it.
 5. Evidence graph: patterns as nodes and edges, each with a history of confidence over time.
